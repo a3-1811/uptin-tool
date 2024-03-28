@@ -6,18 +6,14 @@
 }
 
 @font-face {
-  font-family: 'Tungsten';
-  src: url('font/Tungsten-Black.otf') format('opentype'),
-    url('font/Tungsten-Bold.otf') format('opentype'),
-    url('font/Tungsten-Book.otf') format('opentype'),
-    url('font/Tungsten-Light.otf') format('opentype'),
-    url('font/Tungsten-Medium.otf') format(' opentype'),
-    url('font/Tungsten-Semibold.otf') format('opentype'),
-    url('font/Tungsten-Thin.otf') format('opentype'),
+  font-family: 'tungsten';
+  font-style: normal;
+  font-weight: normal;
+  src: url('font/tungsten.woff2') format('woff2'),
 }
 
 body {
-  font-family: 'Tungsten';
+  font-family: 'tungsten', sans-serif;
 }
 
 /* Override Tailwind CSS primary color */
