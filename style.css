@@ -16,6 +16,12 @@ body {
   font-family: 'tungsten', sans-serif;
 }
 
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
 /* Override Tailwind CSS primary color */
 .primary {
   --tw-text-opacity: 1;
