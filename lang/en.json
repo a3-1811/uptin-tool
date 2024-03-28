@@ -1,0 +1,36 @@
+{
+  "banner": {
+    "title": "A TOOL THAT HELP YOU MASS POST ON <span class=\"primary\">FACEBOOK GROUPS</span>",
+    "launch": "LAUNCHING IN...",
+    "days": "DAYS",
+    "hours": "HOURS",
+    "minutes": "MINUTES",
+    "seconds": "SECONDS",
+    "lifetime": "LIFE-TIME",
+    "free": "FREE",
+    "join": "JOIN",
+    "wishlist": "WISH-LIST & WAKE YOU UP WHEN TOOL READY",
+    "btn": {
+      "access": {
+        "content": "Get Early Access 1 month <span class=\"lato-bold\">FREE</span>",
+        "sub": "Then $2.5 USD/month"
+      },
+      "lifetime": {
+        "content": "$ 25 USD",
+        "sub": "Unlimited time usage"
+      }
+    }
+  },
+  "feature": {
+    "feature_1": "USE AI TO HELP POSTS NOT BE MARKED AS SPAM",
+    "feature_2": "1 CLICK POST TO THOUSANDS OF GROUPS",
+    "feature_3": "GROUP GROUPS INTO FAVORITE COLLECTION FOR LATER USE",
+    "feature_4": "AUTOMATIC SUBSCRIPTION RENEWAL",
+    "feature_5": "ANY ACCOUNT CAN BE USED",
+    "feature_6": "NO CHECK POINT"
+  },
+  "team": {
+    "title": "MEET OUR TEAM"
+  },
+  "contact": "GET IN TOUCH"
+}

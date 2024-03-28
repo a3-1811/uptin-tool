@@ -1,0 +1,38 @@
+/* Reset some default browser styles */
+html{
+  overflow-x: hidden;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Set default styles for links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Set default styles for headings */
+/* Set default styles for lists */
+ul,
+ol {
+  list-style: none;
+}

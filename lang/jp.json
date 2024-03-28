@@ -1,0 +1,36 @@
+{
+  "banner": {
+    "title": " 大きなアイテムを <span class=\"primary\"> FACEBOOK グループ</span> に投稿するのに役立つツール",
+    "launch": "開始中...",
+    "days": "日々",
+    "hours": "時間",
+    "minutes": "分",
+    "seconds": "秒",
+    "lifetime":"永遠に",
+    "free" :"無料」",
+    "join": "登録",
+    "wishlist": "ウィッシュリストを作成し、準備ができたら通知を受け取ります",
+    "btn": {
+      "access": {
+        "content": "1 か月早く<span class=\"lato-bold\">無料</span>お試しください",
+        "sub": "月額 2.50 米ドルです"
+      },
+      "lifetime": {
+        "content": "25 米ドル",
+        "sub": "使用時間無制限"
+      }
+    }
+  },
+  "feature": {
+    "feature_1": "AI を使用して、投稿がスパムとしてマークされるのを防ぎます",
+    "feature_2": "数千のグループの記事を 1 回クリック",
+    "feature_3": "後で使用できるようにお気に入りのコレクションにグループ化します",
+    "feature_4": "サブスクリプションの自動更新",
+    "feature_5": "すべてのアカウントで利用可能",
+    "feature_6": "チェックポイントなし"
+  },
+  "team": {
+    "title": "私たちのチーム"
+  },
+  "contact":"連絡先"
+}

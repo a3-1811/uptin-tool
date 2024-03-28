@@ -1,0 +1,31 @@
+{
+  "banner": {
+    "title": " OUTIL POUR VOUS AIDER À PUBLIER DE GRANDS ARTICLES SUR LE GROUPE FACEBOOK",
+    "launch": "DEBUT DANS...",
+    "days": "DAYS",
+    "hours": " HEURE",
+    "minutes": "MINUTE",
+    "seconds": "SEC",
+    "lifetime": "PERMANENT",
+    "free": "GRATUIT",
+    "join": "JOIN",
+    "wishlist": "WISH-LIST & VOUS INFORMER QUAND IL EST PRÊT",
+    "btn": {
+      "access": {
+        "content": "Obtenez un accès anticipé GRATUIT d'un mois",
+        "sub": "Puis 2, 5 USD/mois"
+      },
+      "lifetime": { "content": "$25 USD", "sub": "Durée d'utilisation illimitée" }
+    }
+  },
+  "feature": {
+    "feature_1": "UTILISEZ UTILISEZ L'IA POUR AIDER VOS POSTES À NE PAS ÊTRE MARQUÉS COMME SPAM",
+    "feature_2": "1 CLIQUEZ SUR POSTEZ À DES MILLIERS DE GROUPES",
+    "feature_3": "REGROUPEZ-VOUS DANS DES COLLECTIONS FAVORIS POUR UNE UTILISATION PLUS TARDIÈRE",
+    "feature_4": "ABONNEMENT À RENOUVELLEMENT AUTOMATIQUE",
+    "feature_5": "TOUT COMPTE PEUT ÊTRE UTILISÉ",
+    "feature_6": "AUCUN POINT DE CONTRÔLE"
+  },
+  "team": { "title": "NOTRE ÉQUIPE " },
+  "contact": "CONTACT"
+}

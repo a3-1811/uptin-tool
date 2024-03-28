@@ -1,0 +1,108 @@
+:root {
+  --primary-color: #2E65B7;
+  --secondary-color: #000000;
+  --warning-color: #E95734;
+
+}
+
+@font-face {
+  font-family: 'Tungsten';
+  src: url('font/Tungsten-Black.otf') format('opentype'),
+    url('font/Tungsten-Bold.otf') format('opentype'),
+    url('font/Tungsten-Book.otf') format('opentype'),
+    url('font/Tungsten-Light.otf') format('opentype'),
+    url('font/Tungsten-Medium.otf') format(' opentype'),
+    url('font/Tungsten-Semibold.otf') format('opentype'),
+    url('font/Tungsten-Thin.otf') format('opentype'),
+}
+
+body {
+  font-family: 'Tungsten';
+}
+
+/* Override Tailwind CSS primary color */
+.primary {
+  --tw-text-opacity: 1;
+  color: var(--primary-color);
+}
+
+.primary-bg {
+  --tw-bg-opacity: 1;
+  background-color: var(--primary-color);
+}
+
+.primary-border {
+  border-color: var(--primary-color);
+}
+
+.secondary {
+  --tw-text-opacity: 1;
+  color: var(--secondary-color);
+}
+
+.secondary-bg {
+  --tw-bg-opacity: 1;
+  background-color: var(--secondary-color);
+}
+
+.warning {
+  --tw-text-opacity: 1;
+  color: var(--warning-color);
+}
+
+.warning-bg {
+  --tw-bg-opacity: 1;
+  background-color: var(--warning-color);
+}
+
+/* ////////////// */
+
+.time-item {
+  width: 75px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.shadow-ticket {
+  box-shadow: 5px 5px 0px 0px var(--secondary-color);
+  -webkit-box-shadow: 5px 5px 0px 0px var(--secondary-color);
+  -moz-box-shadow: 5px 5px 0px 0px var(--secondary-color);
+}
+
+.shadow-warning {
+  box-shadow: 5px 7px 0px 0px var(--warning-color);
+  -webkit-box-shadow: 5px 7px 0px 0px var(--warning-color);
+  -moz-box-shadow: 5px 7px 0px 0px var(--warning-color);
+}
+
+.card{
+  height: 600px;
+}
+
+.ticket{
+  border-radius: 180px;
+  border: 12px solid var(--primary-color);
+  max-width: 500px;
+  width: 100%;
+  position: absolute;
+  left: calc(100% - 500px/2);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ticket p{
+  max-width: 100px;
+  width: 100%;
+}
+
+#banner_free{
+  width: fit-content;
+}
+
+#languageSelect{
+  min-width: 200px;
+  background: #000;
+  color: #fff;
+}

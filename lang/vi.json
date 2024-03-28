@@ -1,0 +1,36 @@
+{
+  "banner": {
+    "title": " CÔNG CỤ GIÚP BẠN ĐĂNG HÀNG LỚN TRÊN <span class=\"primary\"> NHÓM FACEBOOK</span>",
+    "launch": "ĐANG KHỞI ĐỘNG TRONG...",
+    "days": "NGÀY",
+    "hours": "GIỜ",
+    "minutes": "PHÚT",
+    "seconds": "GIÂY",
+    "lifetime": "VĨNH VIỄN",
+    "free": "MIỄN PHÍ",
+    "join": "THAM GIA",
+    "wishlist": "WISH-LIST & THÔNG BÁO BẠN KHI CÔNG CỤ SẴN SÀNG",
+    "btn": {
+      "access": {
+        "content": "Nhận quyền truy cập sớm 1 tháng <span class=\"lato-bold\">MIỄN PHÍ</span>",
+        "sub": "Vậy thì $2,5 USD/tháng"
+      },
+      "lifetime": {
+        "content": "$ 25 USD",
+        "sub": "Thời gian sử dụng không giới hạn"
+      }
+    }
+  },
+  "feature": {
+    "feature_1": "SỬ DỤNG AI ĐỂ GIÚP BÀI VIẾT KHÔNG BỊ ĐÁNH DẤU LÀ SPAM",
+    "feature_2": "1 CLICK ĐĂNG CHO HÀNG NGÀN NHÓM",
+    "feature_3": "NHÓM NHÓM VÀO BỘ SƯU TẬP YÊU THÍCH ĐỂ SỬ DỤNG SAU",
+    "feature_4": "TỰ ĐỘNG GIA HẠN ĐĂNG KÝ",
+    "feature_5": "MỌI TÀI KHOẢN CÓ THỂ ĐƯỢC SỬ DỤNG",
+    "feature_6": "KHÔNG BỊ CHECKPOINT"
+  },
+  "team": {
+    "title": "TEAM CỦA CHÚNG TÔI"
+  },
+  "contact": "LIÊN LẠC"
+}
