@@ -18,7 +18,9 @@ const timerInterval = setInterval(() => {
     const seconds = twoDigits(Math.floor((distance % (1000 * 60)) / 1000));
 
     // Display the countdown
-    document.getElementById("timer").textContent = `${days}:${hours}:${minutes}:${seconds}`;
+    document.getElementById(
+      "timer"
+    ).innerHTML = `<div class="time-number">${days}</div>:<div class="time-number">${hours}</div>:<div class="time-number">${minutes}</div>:<div class="time-number">${seconds}</div>`;
 
     // If the countdown is over, display a message
     if (distance < 0) {

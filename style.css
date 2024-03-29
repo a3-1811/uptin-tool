@@ -60,7 +60,13 @@ body {
 /* ////////////// */
 
 .time-item {
-  width: 75px;
+  width: 120px;
+  text-align: center;
+}
+.time-number{
+  max-width: 120px;
+  width: 100%;
+  text-align: center;
 }
 
 .mt-100 {
