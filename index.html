@@ -11,40 +11,69 @@
       rel="stylesheet"
     />
     <!-- Include Tailwind CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="./reset.css" rel="stylesheet" />
     <link href="./lato.css" rel="stylesheet" />
     <link href="./style.css" rel="stylesheet" />
   </head>
-  <body class="overflow-x-hidden w-vh">
+  <body class="overflow-x-hidden w-vh relative">
     <!-- Banner Section -->
     <section class="bg-white min-h-vh relative">
       <div class="container mx-auto mt-100">
-        <div class="flex justify-end"><select
-          class="px-5 py-2"
-          id="languageSelect"
-          onchange="changeLanguage()"
-        >
-          <option value="en">English</option>
-          <option value="vi">Vietnam</option>
-          <option value="fr">French</option>
-          <option value="jp">Japan</option>
-        </select></div>
+        <div class="flex justify-between xl:justify-end">
+          <button
+            class="block xl:hidden"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="7.15rem"
+              height="3rem"
+              viewBox="0 0 24 24"
+            >
+              <path
+                id="youtube-toggle"
+                class="modal"
+                data-modal-toggle="youtube-toggle"
+                data-modal-target="youtube"
+                fill="#FF0000"
+                d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765c1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831M9.996 15.005l.005-6l5.207 3.005z"
+              />
+            </svg>
+          </button>
+
+          <select
+            class="px-5 py-2"
+            id="languageSelect"
+            onchange="changeLanguage()"
+          >
+            <option value="en">English</option>
+            <option value="vi">Vietnam</option>
+            <option value="fr">French</option>
+            <option value="jp">Japan</option>
+          </select>
+        </div>
         <div class="flex gap-10 w-full flex-col-reverse xl:flex-row">
           <div class="flex flex-col justify-center p-5 flex-1">
-            <h2 class="text-6xl font-light mb-8 tracking-wide" id="banner_title">
+            <h2
+              class="text-6xl font-light mb-8 tracking-wide"
+              id="banner_title"
+            >
               A TOOL THAT HELP YOU MASS POST ON
               <span class="primary">FACEBOOK GROUPS</span>
             </h2>
             <div class="mb-20">
-              <h1 class="text-7xl font-semibold mb-8" id="banner_launch">LAUNCHING IN...</h1>
-              <div id="timer" class="flex flex-row align-center text-8xl sm:text-9xl font-bold primary tracking-wide">
+              <h1 class="text-7xl font-semibold mb-8" id="banner_launch">
+                LAUNCHING IN...
+              </h1>
+              <div
+                id="timer"
+                class="flex flex-row items-center text-8xl sm:text-9xl font-bold primary tracking-wide"
+              >
                 39:23:59:59
               </div>
-              <div class="flex flex-row justify-start gap-4 sm:gap-6 mb-20 flex-nowrap text-xl sm:text-3xl font-light">
+              <div
+                class="flex flex-row justify-start gap-4 sm:gap-6 mb-20 flex-nowrap text-xl sm:text-3xl font-light"
+              >
                 <p class="time-item" id="banner_days">DAYS</p>
                 <p class="time-item" id="banner_hours">HOURS</p>
                 <p class="time-item" id="banner_minutes">MINUTES</p>
@@ -55,11 +84,15 @@
               >
                 <div class="flex flex-col justify-center gap-7 flex-1">
                   <button
-                    class="border-2 border-primary border-black py-6 px-11 text-3xl text-center lato-regular flex-1" id="banner_btn_access_content"
+                    class="border-2 border-primary border-black py-6 px-11 text-3xl text-center lato-regular flex-1"
+                    id="banner_btn_access_content"
                   >
                     Get Early Access 1 month <span class="lato-bold">FREE</span>
                   </button>
-                  <div class="lato-regular text-xl text-center" id="banner_btn_access_sub">
+                  <div
+                    class="lato-regular text-xl text-center"
+                    id="banner_btn_access_sub"
+                  >
                     Then $2.5 USD/month
                   </div>
                 </div>
@@ -70,13 +103,15 @@
                     <span id="banner_btn_lifetime_content">$ 25 USD</span>
                     <div
                       class="font-bold text-6xl warning-bg cursor-default text-white p-3 transform -rotate-12 absolute left-full -translate-x-40 xl:-translate-x-12 bottom-full whitespace-nowrap shadow-ticket"
-                    id="banner_lifetime"
+                      id="banner_lifetime"
                     >
                       LIFE-TIME
                     </div>
                   </button>
-                  <div class="lato-regular text-xl text-center"
-                    id="banner_btn_lifetime_sub">
+                  <div
+                    class="lato-regular text-xl text-center"
+                    id="banner_btn_lifetime_sub"
+                  >
                     Unlimited time usage
                   </div>
                 </div>
@@ -90,9 +125,26 @@
                 alt="banner"
                 class="w-full object-cover"
               />
-              <a class="absolute top-1/2 left-1/2 transform -translate-y-2/4 -translate-x-2/4" href="https://youtu.be/D2UrfiW_ZW4" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14.3rem" height="8rem" viewBox="0 0 24 24"><path fill="#FC2648" fill-opacity="0.6" d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765c1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831M9.996 15.005l.005-6l5.207 3.005z"/></svg>
-              </a>
+              <button
+                class="absolute top-1/2 left-1/2 transform -translate-y-2/4 -translate-x-2/4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14.3rem"
+                  height="8rem"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    id="youtube-toggle"
+                    class="modal"
+                    data-modal-toggle="youtube-toggle"
+                    data-modal-target="youtube"
+                    fill="#FC2648"
+                    fill-opacity="0.6"
+                    d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765c1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831M9.996 15.005l.005-6l5.207 3.005z"
+                  />
+                </svg>
+              </button>
             </div>
           </div>
         </div>
@@ -105,10 +157,10 @@
         >
           FREE
         </div>
-        <h2 class="text-5xl font-bold"
-                    id="banner_join">JOIN</h2>
-        <p class="lato-black"
-                    id="banner_wishlist">WISH-LIST & WAKE YOU UP WHEN TOOL READY</p>
+        <h2 class="text-5xl font-bold" id="banner_join">JOIN</h2>
+        <p class="lato-black" id="banner_wishlist">
+          WISH-LIST & WAKE YOU UP WHEN TOOL READY
+        </p>
       </div>
     </section>
 
@@ -121,35 +173,47 @@
               <img
                 src="./images/feature.png"
                 alt="feature"
-                class="w-full sm:w-1/2  lg:w-full shrink-0"
+                class="w-full sm:w-1/2 lg:w-full shrink-0"
               />
             </div>
           </div>
           <div class="lg:col-span-3 p-6">
             <div class="flex flex-col justify-center">
               <ul class="list-disc ml-8 lg:ml-0">
-                <li class="text-white font-bold text-5xl tracking-wider"
-                    id="feature_feature_1">
+                <li
+                  class="text-white font-bold text-5xl tracking-wider"
+                  id="feature_feature_1"
+                >
                   USE AI TO HELP POSTS NOT BE MARKED AS SPAM
                 </li>
-                <li class="text-white font-bold text-5xl mt-10 sm:mt-4 tracking-wider"
-                    id="feature_feature_2">
+                <li
+                  class="text-white font-bold text-5xl mt-10 sm:mt-4 tracking-wider"
+                  id="feature_feature_2"
+                >
                   1 CLICK POST TO THOUSANDS OF GROUPS
                 </li>
-                <li class="text-white font-bold text-5xl mt-10 sm:mt-4 tracking-wider"
-                    id="feature_feature_3">
+                <li
+                  class="text-white font-bold text-5xl mt-10 sm:mt-4 tracking-wider"
+                  id="feature_feature_3"
+                >
                   GROUP GROUPS INTO FAVORITE COLLECTION FOR LATER USE
                 </li>
-                <li class="text-white font-bold text-5xl mt-10 sm:mt-4 tracking-wider"
-                    id="feature_feature_4">
+                <li
+                  class="text-white font-bold text-5xl mt-10 sm:mt-4 tracking-wider"
+                  id="feature_feature_4"
+                >
                   AUTOMATIC SUBSCRIPTION RENEWAL
                 </li>
-                <li class="text-white font-bold text-5xl mt-10 sm:mt-4 tracking-wider"
-                    id="feature_feature_5">
+                <li
+                  class="text-white font-bold text-5xl mt-10 sm:mt-4 tracking-wider"
+                  id="feature_feature_5"
+                >
                   ANY ACCOUNT CAN BE USED
                 </li>
-                <li class="text-white font-bold text-5xl mt-10 sm:mt-4 tracking-wider"
-                    id="feature_feature_6">
+                <li
+                  class="text-white font-bold text-5xl mt-10 sm:mt-4 tracking-wider"
+                  id="feature_feature_6"
+                >
                   NO CHECK POINT
                 </li>
               </ul>
@@ -168,7 +232,7 @@
         <div
           class="flex flex-wrap justify-center lg:justify-between gap-10 lg:gap-2 text-white"
         >
-          <div class="relative card w-full sm:w-5/12 lg:w-3/12">
+          <div class="relative card w-full lg:w-[calc(100%/3-8px)]">
             <div class="absolute top-0 left-0 w-full h-full p-5 z-10">
               <h3 class="font-bold text-6xl">RAJESH KUMAR</h3>
               <h3 class="font-light text-3xl">CEO</h3>
@@ -179,7 +243,7 @@
               class="absolute top-0 left-0 w-full h-full object-cover"
             />
           </div>
-          <div class="relative card w-full sm:w-5/12 lg:w-3/12">
+          <div class="relative card w-full lg:w-[calc(100%/3-8px)]">
             <div class="absolute top-0 left-0 w-full h-full p-5 z-10">
               <h3 class="font-bold text-6xl">ROHAN SHARMA</h3>
               <h3 class="font-light text-3xl">LEAD DEV</h3>
@@ -190,7 +254,7 @@
               class="absolute top-0 left-0 w-full h-full object-cover"
             />
           </div>
-          <div class="relative card w-full sm:w-5/12 lg:w-3/12">
+          <div class="relative card w-full lg:w-[calc(100%/3-8px)]">
             <div class="absolute top-0 left-0 w-full h-full p-5 z-10">
               <h3 class="font-bold text-6xl">NISHA PATEL</h3>
               <h3 class="font-light text-3xl">MARKETING MANAGER</h3>
@@ -204,14 +268,15 @@
         </div>
       </div>
     </section>
-
     <!-- Footer Section -->
     <footer class="bg-black flex flex-col justify-cener py-24">
       <div class="container mx-auto mt-100">
         <div
           class="flex flex-col justify-center py-6 w-full text-white text-center"
         >
-          <h2 class="text-8xl font-bold mb-20 tracking-wide"id="contact" >GET IN TOUCH</h2>
+          <h2 class="text-8xl font-bold mb-20 tracking-wide" id="contact">
+            GET IN TOUCH
+          </h2>
           <div class="flex flex-row justify-center gap-20 text-white flex-wrap">
             <a href="https://www.facebook.com/app.uptin.vn" target="_blank">
               <svg
@@ -285,7 +350,24 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modal -->
+    <div id="youtube" class="flex justify-center items-center h-full w-full">
+      <div class="w-full px-2 sm:px-0 lg:w-[80vw] h-[80vh]">
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/D2UrfiW_ZW4?autoplay=1&si=-qyFRVWcBFx_AeCa"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
     <script src="./script.js"></script>
     <script src="./translate.js"></script>
+    <script src="./modal.js"></script>
   </body>
 </html>
