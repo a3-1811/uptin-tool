@@ -12,7 +12,7 @@
     "wishlist": "ウィッシュリストツールの準備ができたら通知します",
     "btn": {
       "access": { "content": "1 か月間無料でサインアップ", "sub": "$2.5/月" },
-      "lifetime": { " content": "$25 USD", "sub": "使用時間無制限" }
+      "lifetime": { "content": "$25 USD", "sub": "使用時間無制限" }
     }
   },
   "demo": "デモを見る",

@@ -23,7 +23,7 @@
       <div class="container mx-auto mt-100">
         <div class="flex justify-end">
           <select
-            class="px-5 py-2"
+            class="px-5 py-2 text-xl"
             id="languageSelect"
             onchange="changeLanguage()"
           >
@@ -76,7 +76,7 @@
                       >$ 25 USD</span
                     >
                     <div
-                      class="uppercase font-bold text-6xl warning-bg cursor-default text-white p-3 transform -rotate-12 absolute left-full -translate-x-40 xl:-translate-x-12 bottom-full whitespace-nowrap shadow-ticket"
+                      class="uppercase font-bold text-6xl warning-bg cursor-default text-white p-3 transform -rotate-12 absolute left-full -translate-x-[12rem] min-[440px]:-translate-x-40 xl:-translate-x-12 bottom-full whitespace-nowrap shadow-ticket"
                       id="banner_lifetime"
                     >
                       LIFE-TIME
@@ -149,7 +149,7 @@
             <div class="flex flex-col justify-center h-full">
               <h2
                 id="feature1_title"
-                class="text-bold text-white text-8xl mb-6"
+                class="uppercase text-bold text-white text-8xl mb-10 text-center md:text-left"
               >
                 FEATURES
               </h2>
@@ -184,7 +184,7 @@
             <div class="flex flex-col justify-center h-full">
               <h2
                 id="feature2_title"
-                class="text-bold text-white text-8xl mb-6"
+                class="text-bold text-white text-8xl mb-10 text-center md:text-left"
               >
                 WHAT YOU GET
               </h2>
@@ -218,7 +218,7 @@
         <div
           class="flex justify-between flex-col-reverse min-[1500px]:flex-row gap-60 min-[1500px]:gap-10 w-full mt-[100px] mx-auto"
         >
-          <div class="p-6 pb-0 pl-0 flex-1">
+          <div class="p-6 pb-0 pl-0 flex-1 mt-[100px] min-[1500px]:mt-0">
             <div class="flex flex-row justify-start relative">
               <img
                 src="./images/person/shock.png"
@@ -233,11 +233,19 @@
               <img
                 src="./images/person/conversation.png"
                 alt="feature"
-                class=" hidden min-[440px]:block absolute bottom-[calc(100%-110px)] md:bottom-[calc(100%-220px)] left-[calc(150px)] md:left-[calc(545px-100px)] w-[400px] h-[400px] md:w-[500px] md:h-[400px] shrink-0"
+                class="
+                absolute 
+                bottom-full min-[440px]:bottom-[calc(100%-110px)] md:bottom-[calc(100%-220px)] 
+                min-[440px]:left-[calc(150px)] md:left-[calc(545px-100px)] 
+                w-[400px] md:w-[500px]
+                h-[200px] min-[440px]:h-[400px] md:h-[400px] shrink-0"
               />
               <h1
                 id="unbelievable"
-                class=" hidden min-[440px]:block text-center transform -rotate-[15deg] text-white text-7xl md:text-[5rem] text-bold absolute bottom-[calc(100%+50px)] md:bottom-[calc(100%-50px)] left-[200px] md:left-[550px] w-[300px] text-wrap"
+                class="text-center transform min-[440px]:-rotate-[15deg] text-white text-6xl md:text-[5rem] text-bold absolute 
+                bottom-[130%] min-[440px]:bottom-[calc(100%+50px)] md:bottom-[calc(100%-50px)] 
+                left-[50px] min-[440px]:left-[200px] md:left-[550px] 
+                w-[240px] min-[440px]:w-[300px] text-wrap"
               >
                 Unbelievable !
               </h1>
@@ -247,7 +255,7 @@
             <div class="flex flex-col justify-center items-center h-full">
               <span
                 class="text-bold text-white text-8xl md:text-9xl mb-6 relative tracking-widest w-fit"
-                ><span id="deal" class="block md:inline w-full"
+                ><span id="deal" class="block md:inline w-full text-center md:text-left"
                   >LIFE-TIME DEAL</span
                 >
                 <img

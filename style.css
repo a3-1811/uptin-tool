@@ -144,7 +144,7 @@ html {
 
 @media screen and (max-width: 768px) {
   html {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .text-shadow-white {
@@ -152,7 +152,7 @@ html {
   }
 
   .time-number {
-    width: calc(50% - 50px);
+    width: calc(50% - 30px);
     max-width: 100%;
   }
 }

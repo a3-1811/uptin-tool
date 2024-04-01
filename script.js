@@ -22,7 +22,12 @@ const timerInterval = setInterval(() => {
   const seconds = twoDigits(Math.floor((distance % (1000 * 60)) / 1000));
 
   // Display the countdown
-  const { days:dayStr, hours:hourStr, minutes:minuteStr, seconds:secondStr } = dictionary?.banner || {
+  const {
+    days: dayStr,
+    hours: hourStr,
+    minutes: minuteStr,
+    seconds: secondStr,
+  } = dictionary?.banner || {
     days: "DAY",
     hours: "HOUR",
     minutes: "MINUTE",
