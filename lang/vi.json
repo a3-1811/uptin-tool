@@ -1,7 +1,7 @@
 {
   "banner": {
-    "title": " CÔNG CỤ GIÚP BẠN ĐĂNG HÀNG LỚN TRÊN <span class=\"primary  font-bold\"> NHÓM FACEBOOK</span>",
-    "launch": "ĐANG KHỞI ĐỘNG TRONG...",
+    "title": "Công cụ giúp đăng tin hàng loạt vào <span class=\"primary  font-bold\">các hội nhóm Facebook</span>",
+    "launch": "SẼ RA MẮT TRONG...",
     "days": "NGÀY",
     "hours": "GIỜ",
     "minutes": "PHÚT",
@@ -12,25 +12,35 @@
     "wishlist": "WISH-LIST & THÔNG BÁO BẠN KHI CÔNG CỤ SẴN SÀNG",
     "btn": {
       "access": {
-        "content": "Nhận quyền truy cập sớm 1 tháng <span class=\"lato-bold\">MIỄN PHÍ</span>",
-        "sub": "Vậy thì $2,5 USD/tháng"
+        "content": "Đăng ký <span class=\"lato-bold\">FREE</span> 1 tháng",
+        "sub": "50K/tháng"
       },
       "lifetime": {
-        "content": "$ 25 USD",
+        "content": "500K",
         "sub": "Thời gian sử dụng không giới hạn"
       }
     }
   },
-  "feature": {
-    "feature_1": "SỬ DỤNG AI ĐỂ GIÚP BÀI VIẾT KHÔNG BỊ ĐÁNH DẤU LÀ SPAM",
-    "feature_2": "1 CLICK ĐĂNG CHO HÀNG NGÀN NHÓM",
-    "feature_3": "NHÓM NHÓM VÀO BỘ SƯU TẬP YÊU THÍCH ĐỂ SỬ DỤNG SAU",
-    "feature_4": "TỰ ĐỘNG GIA HẠN ĐĂNG KÝ",
-    "feature_5": "MỌI TÀI KHOẢN CÓ THỂ ĐƯỢC SỬ DỤNG",
-    "feature_6": "KHÔNG BỊ CHECKPOINT"
+  "demo": "Xem demo",
+  "feature1": {
+    "title": "Tính năng",
+    "1": "AI trộn nội dung mỗi lần đăng",
+    "2": "1-Click đăng vào hàng ngàn nhóm",
+    "3": "Lưu nhóm yêu thích",
+    "4": "Không đăng nhập ID & pass FB",
+    "5": "Đồng bộ tài khoản",
+    "6": "Tự tạo hashtag thông minh"
   },
-  "team": {
-    "title": "TEAM CỦA CHÚNG TÔI"
+  "feature2": {
+    "title": "BẠN ĐƯỢC GÌ?",
+    "1": "Tiết kiệm thời gian đăng tin thủ công",
+    "2": "Tiếp cận nhiều hơn, bán nhiều hơn, tiền nhiều hơn",
+    "3": "Hạn chế dính spam",
+    "4": "Không bị checkpoint"
   },
-  "contact": "LIÊN LẠC"
+  "unbelievable": "Thật 0 thể tin nổi!",
+  "deal": "DEAL TRỌN ĐỜI",
+  "deal_value":"500K",
+  "time_remain": "Còn lại:",
+  "contact": "LIÊN HỆ"
 }

@@ -1,31 +1,43 @@
 {
   "banner": {
-    "title": " OUTIL POUR VOUS AIDER À PUBLIER DE GRANDS ARTICLES SUR LE <span class=\"primary  font-bold\">GROUPE FACEBOOK</span>",
-    "launch": "DEBUT DANS...",
+    "title": "Outil pour aider à publier des messages en masse sur des<span class=\"primary  font-bold\"> groupes Facebook</span>",
+    "launch": "À LANCER DANS...",
     "days": "DAYS",
-    "hours": " HEURE",
+    "hours": "HOUR ",
     "minutes": "MINUTE",
     "seconds": "SEC",
     "lifetime": "PERMANENT",
     "free": "GRATUIT",
     "join": "JOIN",
-    "wishlist": "WISH-LIST & VOUS INFORMER QUAND IL EST PRÊT",
+    "wishlist": "WISH-LIST & VOUS INFORMER QUAND L'OUTIL EST PRÊT",
     "btn": {
       "access": {
-        "content": "Obtenez un accès anticipé GRATUIT d'un mois",
-        "sub": "Puis 2, 5 USD/mois"
+        "content": "Inscrivez-vous pour 1 mois GRATUIT",
+        "sub": "$2.5/mois"
       },
-      "lifetime": { "content": "$25 USD", "sub": "Durée d'utilisation illimitée" }
+      "lifetime": { " content": "$25", "sub": "Durée d'utilisation illimitée" }
     }
   },
-  "feature": {
-    "feature_1": "UTILISEZ UTILISEZ L'IA POUR AIDER VOS POSTES À NE PAS ÊTRE MARQUÉS COMME SPAM",
-    "feature_2": "1 CLIQUEZ SUR POSTEZ À DES MILLIERS DE GROUPES",
-    "feature_3": "REGROUPEZ-VOUS DANS DES COLLECTIONS FAVORIS POUR UNE UTILISATION PLUS TARDIÈRE",
-    "feature_4": "ABONNEMENT À RENOUVELLEMENT AUTOMATIQUE",
-    "feature_5": "TOUT COMPTE PEUT ÊTRE UTILISÉ",
-    "feature_6": "AUCUN POINT DE CONTRÔLE"
+  "demo": "Regarder la démo",
+  "feature1": {
+    "title": "Fonctionnalités",
+    "1": "Mélanges IA contenu à chaque fois que vous publiez",
+    "2": "Publier en 1 clic dans des milliers de groupes",
+    "3": "Enregistrer les groupes favoris",
+    "4": "Ne pas publier Entrez l'ID et le mot de passe FB",
+    "5": "Synchroniser le compte",
+    "6": "Créez vous-même des hashtags intelligents"
   },
-  "team": { "title": "NOTRE ÉQUIPE " },
-  "contact": "CONTACT"
+  "feature2": {
+    "title": "QU'OBTENEZ-VOUS?",
+    "1": "Gagnez du temps en publiant des messages manuellement",
+    "2": "Atteignez plus, vendez plus, gagnez plus d'argent",
+    "3": "Limiter le spam",
+    "4": "Aucun point de contrôle "
+  },
+  "unbelievable": "Incroyable!",
+  "deal": "LIFETIME DEAL",
+  "deal_value": "$25 USD",
+  "time_remain": "Remainant :",
+  "contact": "GÉNÉRATION DE CONTACT"
 }

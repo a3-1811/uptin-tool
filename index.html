@@ -14,33 +14,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="./reset.css" rel="stylesheet" />
     <link href="./lato.css" rel="stylesheet" />
+    <link href="./tungsten.css" rel="stylesheet" />
     <link href="./style.css" rel="stylesheet" />
   </head>
   <body class="overflow-x-hidden w-vh relative">
     <!-- Banner Section -->
     <section class="bg-white min-h-vh relative">
       <div class="container mx-auto mt-100">
-        <div class="flex justify-between xl:justify-end">
-          <button
-            class="block xl:hidden"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="7.15rem"
-              height="3rem"
-              viewBox="0 0 24 24"
-            >
-              <path
-                id="youtube-toggle"
-                class="modal"
-                data-modal-toggle="youtube-toggle"
-                data-modal-target="youtube"
-                fill="#FF0000"
-                d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765c1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831M9.996 15.005l.005-6l5.207 3.005z"
-              />
-            </svg>
-          </button>
-
+        <div class="flex justify-end">
           <select
             class="px-5 py-2"
             id="languageSelect"
@@ -52,14 +33,14 @@
             <option value="jp">Japan</option>
           </select>
         </div>
-        <div class="flex gap-10 w-full flex-col-reverse xl:flex-row">
+        <div class="flex gap-20 w-full flex-col-reverse xl:flex-row">
           <div class="flex flex-col justify-center p-5 flex-1">
             <h2
-              class="text-6xl font-light mb-8 tracking-wide"
+              class="text-6xl font-light mb-8 tracking-wide uppercase"
               id="banner_title"
             >
-              A TOOL THAT HELP YOU MASS POST ON
-              <span class="primary">FACEBOOK GROUPS</span>
+              A TOOL THAT HELP YOU POST TO
+              <span class="primary">MULTIPLE FACEBOOK GROUPS</span>
             </h2>
             <div class="mb-20">
               <h1 class="text-7xl font-semibold mb-8" id="banner_launch">
@@ -67,17 +48,8 @@
               </h1>
               <div
                 id="timer"
-                class="flex flex-row items-center text-8xl sm:text-9xl font-bold primary tracking-wide"
+                class="flex flex-row justify-center md:justify-start flex-wrap md:flex-nowrap text-8xl sm:text-9xl font-bold tracking-wide mb-6"
               >
-                39:23:59:59
-              </div>
-              <div
-                class="flex flex-row justify-start gap-4 sm:gap-6 mb-20 flex-nowrap text-xl sm:text-3xl font-light"
-              >
-                <p class="time-item" id="banner_days">DAYS</p>
-                <p class="time-item" id="banner_hours">HOURS</p>
-                <p class="time-item" id="banner_minutes">MINUTES</p>
-                <p class="time-item" id="banner_seconds">SECONDS</p>
               </div>
               <div
                 class="flex flex-col xl:flex-row justify-between gap-20 xl:gap-7"
@@ -100,9 +72,11 @@
                   <button
                     class="border-2 border-black font-bold py-6 px-11 text-7xl flex-1 relative"
                   >
-                    <span id="banner_btn_lifetime_content">$ 25 USD</span>
+                    <span id="banner_btn_lifetime_content" class="primary"
+                      >$ 25 USD</span
+                    >
                     <div
-                      class="font-bold text-6xl warning-bg cursor-default text-white p-3 transform -rotate-12 absolute left-full -translate-x-40 xl:-translate-x-12 bottom-full whitespace-nowrap shadow-ticket"
+                      class="uppercase font-bold text-6xl warning-bg cursor-default text-white p-3 transform -rotate-12 absolute left-full -translate-x-40 xl:-translate-x-12 bottom-full whitespace-nowrap shadow-ticket"
                       id="banner_lifetime"
                     >
                       LIFE-TIME
@@ -118,167 +92,205 @@
               </div>
             </div>
           </div>
-          <div class="p-6 flex-1 hidden xl:block">
-            <div class="flex flex-col justify-center h-full relative">
+          <div class="p-6 flex-1">
+            <div
+              class="flex flex-col justify-center items-center h-full relative"
+            >
               <img
                 src="./images/banner.png"
                 alt="banner"
                 class="w-full object-cover"
               />
-              <button
-                class="absolute top-1/2 left-1/2 transform -translate-y-2/4 -translate-x-2/4"
+              <a
+                class="primary font-bold text-3xl underline"
+                href="https://www.youtube.com/watch?v=D2UrfiW_ZW4"
+                target="_blank"
+                id="demo"
+                >Demo clip</a
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="14.3rem"
-                  height="8rem"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    id="youtube-toggle"
-                    class="modal"
-                    data-modal-toggle="youtube-toggle"
-                    data-modal-target="youtube"
-                    fill="#FC2648"
-                    fill-opacity="0.6"
-                    d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765c1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831M9.996 15.005l.005-6l5.207 3.005z"
-                  />
-                </svg>
-              </button>
             </div>
           </div>
         </div>
       </div>
-      <!-- Sticket -->
-      <div class="ticket py-4 px-20 bg-black text-white hidden xl:block">
+      <!-- List groups -->
+      <div class="relative px-5 pt-14 lg:px-14 lg:pt-[136px]">
         <div
-          class="font-bold text-2xl primary-border border-2 secondary-bg cursor-default text-white px-3 transform -rotate-12 whitespace-nowrap shadow-warning mb-3"
-          id="banner_free"
+          class="absolute -bottom-[4rem] left-0 z-[1] flex w-full overflow-hidden pb-[10px]"
         >
-          FREE
+          <div
+            id="carousel-1"
+            class="mr-[18px] flex shrink-0 -translate-x-full animate-infinite-scroll will-change-transform [&>*:not(:last-of-type)]:mr-[18px]"
+          ></div>
+          <div
+            id="carousel-2"
+            class="flex shrink-0 -translate-x-full animate-infinite-scroll will-change-transform [&>*:not(:last-of-type)]:mr-[18px]"
+          ></div>
         </div>
-        <h2 class="text-5xl font-bold" id="banner_join">JOIN</h2>
-        <p class="lato-black" id="banner_wishlist">
-          WISH-LIST & WAKE YOU UP WHEN TOOL READY
-        </p>
       </div>
     </section>
 
     <!-- Feature Section -->
     <section class="secondary-bg">
-      <div class="px-5 py-20">
-        <div class="flex justify-between flex-col lg:flex-row gap-10 w-full">
-          <div class="p-6  flex-1 lg:flex-[0.4]">
-            <div class="flex flex-row lg:flex-col justify-center h-full">
+      <div class="pt-20">
+        <!-- Feature 1 -->
+        <div
+          class="container mx-auto flex justify-between flex-col lg:flex-row gap-10 w-full mt-[100px]"
+        >
+          <div class="p-6 flex-1">
+            <div class="flex flex-row justify-center">
               <img
                 src="./images/feature.png"
                 alt="feature"
-                class="w-full sm:w-1/2 lg:w-full shrink-0"
+                class="w-full max-w-[750px] shrink-0"
               />
             </div>
           </div>
-          <div class=" flex-1 lg:flex-[0.6] p-6">
+          <div class="flex-1 p-6">
             <div class="flex flex-col justify-center h-full">
-              <ul class="list-disc ml-8 lg:ml-0">
-                <li
-                  class="text-white font-bold text-5xl tracking-wider"
-                  id="feature_feature_1"
-                >
-                  USE AI TO HELP POSTS NOT BE MARKED AS SPAM
+              <h2
+                id="feature1_title"
+                class="text-bold text-white text-8xl mb-6"
+              >
+                FEATURES
+              </h2>
+              <ul class="list-disc ml-8">
+                <li class="text-white text-5xl" id="feature1_1">
+                  AI RE-WRITE EVERY POST
                 </li>
-                <li
-                  class="text-white font-bold text-5xl mt-10 sm:mt-4 tracking-wider"
-                  id="feature_feature_2"
-                >
-                  1 CLICK POST TO THOUSANDS OF GROUPS
+                <li class="text-white text-5xl mt-10 sm:mt-4" id="feature1_2">
+                  1-CLICK POST TO THOUSANDS OF GROUPS
                 </li>
-                <li
-                  class="text-white font-bold text-5xl mt-10 sm:mt-4 tracking-wider"
-                  id="feature_feature_3"
-                >
-                  GROUP GROUPS INTO FAVORITE COLLECTION FOR LATER USE
+                <li class="text-white text-5xl mt-10 sm:mt-4" id="feature1_3">
+                  FAVORITE COLLECTION
                 </li>
-                <li
-                  class="text-white font-bold text-5xl mt-10 sm:mt-4 tracking-wider"
-                  id="feature_feature_4"
-                >
-                  AUTOMATIC SUBSCRIPTION RENEWAL
+                <li class="text-white text-5xl mt-10 sm:mt-4" id="feature1_4">
+                  NO LOGIN REQUIRED
                 </li>
-                <li
-                  class="text-white font-bold text-5xl mt-10 sm:mt-4 tracking-wider"
-                  id="feature_feature_5"
-                >
-                  ANY ACCOUNT CAN BE USED
+                <li class="text-white text-5xl mt-10 sm:mt-4" id="feature1_5">
+                  ACCOUNT SYNC
                 </li>
-                <li
-                  class="text-white font-bold text-5xl mt-10 sm:mt-4 tracking-wider"
-                  id="feature_feature_6"
-                >
-                  NO CHECK POINT
+                <li class="text-white text-5xl mt-10 sm:mt-4" id="feature1_6">
+                  SMART HASHTAG
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Feature 2 -->
+        <div
+          class="container mx-auto flex justify-between flex-col-reverse lg:flex-row gap-10 w-full mt-[100px]"
+        >
+          <div class="flex-1 p-6">
+            <div class="flex flex-col justify-center h-full">
+              <h2
+                id="feature2_title"
+                class="text-bold text-white text-8xl mb-6"
+              >
+                WHAT YOU GET
+              </h2>
+              <ul class="list-disc ml-8">
+                <li class="text-white text-5xl" id="feature2_1">
+                  SAVE HOURS EVERDAY
+                </li>
+                <li class="text-white text-5xl mt-10 sm:mt-4" id="feature2_2">
+                  MORE REACH, MORE SALES, MORE $$$
+                </li>
+                <li class="text-white text-5xl mt-10 sm:mt-4" id="feature2_3">
+                  NO SPAM
+                </li>
+                <li class="text-white text-5xl mt-10 sm:mt-4" id="feature2_4">
+                  NO CHECKPOINT
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="p-6 flex-1">
+            <div class="flex flex-row justify-center">
+              <img
+                src="./images/feature2.png"
+                alt="feature"
+                class="w-full max-w-[850px] shrink-0"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Feature 3 -->
+        <div
+          class="flex justify-between flex-col-reverse min-[1500px]:flex-row gap-60 min-[1500px]:gap-10 w-full mt-[100px] mx-auto"
+        >
+          <div class="p-6 pb-0 pl-0 flex-1">
+            <div class="flex flex-row justify-start relative">
+              <img
+                src="./images/person/shock.png"
+                alt="feature"
+                class="w-full max-w-[225px] md:max-w-[545px]"
+              />
+              <img
+                src="./images/person/crown.png"
+                alt="feature"
+                class="absolute bottom-[calc(100%-(110px/2))] md:bottom-[calc(100%-(220px/2))] left-[calc((225px/2)-20px)] md:left-[calc((545px/2)-20px)] w-full max-w-[110px] md:max-w-[220px] shrink-0"
+              />
+              <img
+                src="./images/person/conversation.png"
+                alt="feature"
+                class=" hidden min-[440px]:block absolute bottom-[calc(100%-110px)] md:bottom-[calc(100%-220px)] left-[calc(150px)] md:left-[calc(545px-100px)] w-[400px] h-[400px] md:w-[500px] md:h-[400px] shrink-0"
+              />
+              <h1
+                id="unbelievable"
+                class=" hidden min-[440px]:block text-center transform -rotate-[15deg] text-white text-7xl md:text-[5rem] text-bold absolute bottom-[calc(100%+50px)] md:bottom-[calc(100%-50px)] left-[200px] md:left-[550px] w-[300px] text-wrap"
+              >
+                Unbelievable !
+              </h1>
+            </div>
+          </div>
+          <div class="flex-1 p-6">
+            <div class="flex flex-col justify-center items-center h-full">
+              <span
+                class="text-bold text-white text-8xl md:text-9xl mb-6 relative tracking-widest w-fit"
+                ><span id="deal" class="block md:inline w-full"
+                  >LIFE-TIME DEAL</span
+                >
+                <img
+                  class="hidden md:block absolute left-[calc(100%-50px)] top-[30px] max-w-[215px]"
+                  src="./images/person/buy.png"
+                  alt="lifetime"
+                />
+              </span>
+              <h2
+              id="deal_value"
+                class="text-shadow-white warning text-bold text-9xl md:text-[12rem] mb-10 md:tracking-[0.08rem]"
+              >
+                $ 25 USD
+              </h2>
+              <div class="flex flex-row gap-6">
+                <span id="time_remain" class="text-8xl text-white leading-[1.5] hidden md:inline"
+                  >Time left:</span
+                >
+                <div class="flex flex-col text-white">
+                  <div
+                    id="timer2"
+                    class="flex flex-row gap-2 justify-center md:justify-start flex-wrap md:flex-nowrap text-8xl sm:text-9xl font-bold tracking-wide"
+                  >
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Team Section -->
-    <section class="bg-white min-h-vh">
-      <div class="container mx-auto mt-100 p-5">
-        <h2 class="text-8xl font-bold mb-8 tracking-wide mt-24" id="team_title">
-          MEET OUR TEAM
-        </h2>
-        <div
-          class="flex flex-wrap justify-center lg:justify-between gap-10 lg:gap-2 text-white"
-        >
-          <div class="relative card w-full lg:w-[calc(100%/3-8px)]">
-            <div class="absolute top-0 left-0 w-full h-full p-5 z-10">
-              <h3 class="font-bold text-6xl">RAJESH KUMAR</h3>
-              <h3 class="font-light text-3xl">CEO</h3>
-            </div>
-            <img
-              src="./images/team-1.png"
-              alt="team"
-              class="absolute top-0 left-0 w-full h-full object-cover"
-            />
-          </div>
-          <div class="relative card w-full lg:w-[calc(100%/3-8px)]">
-            <div class="absolute top-0 left-0 w-full h-full p-5 z-10">
-              <h3 class="font-bold text-6xl">ROHAN SHARMA</h3>
-              <h3 class="font-light text-3xl">LEAD DEV</h3>
-            </div>
-            <img
-              src="./images/team-2.png"
-              alt="team"
-              class="absolute top-0 left-0 w-full h-full object-cover"
-            />
-          </div>
-          <div class="relative card w-full lg:w-[calc(100%/3-8px)]">
-            <div class="absolute top-0 left-0 w-full h-full p-5 z-10">
-              <h3 class="font-bold text-6xl">NISHA PATEL</h3>
-              <h3 class="font-light text-3xl">MARKETING MANAGER</h3>
-            </div>
-            <img
-              src="./images/team-3.png"
-              alt="team"
-              class="absolute top-0 left-0 w-full h-full object-cover"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
     <!-- Footer Section -->
-    <footer class="bg-black flex flex-col justify-cener py-24">
+    <footer class="bg-white flex flex-col justify-cener py-24">
       <div class="container mx-auto mt-100">
         <div
-          class="flex flex-col justify-center py-6 w-full text-white text-center"
+          class="flex flex-col justify-center py-6 w-full text-black text-center"
         >
           <h2 class="text-8xl font-bold mb-20 tracking-wide" id="contact">
             GET IN TOUCH
           </h2>
-          <div class="flex flex-row justify-center gap-20 text-white flex-wrap">
-            <a href="https://www.facebook.com/app.uptin.vn" target="_blank">
+          <div class="flex flex-row justify-center gap-20 text-black flex-wrap">
+            <a href="https://www.facebook.com/" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="2em"
@@ -305,7 +317,7 @@
               </svg>
             </a>
 
-            <a href="https://www.linkedin.com/in/minhzu/" target="_blank"
+            <a href="https://www.linkedin.com/" target="_blank"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="2em"
@@ -351,23 +363,8 @@
       </div>
     </footer>
 
-    <!-- Modal -->
-    <div id="youtube" class="flex justify-center items-center h-full w-full">
-      <div class="w-full px-2 sm:px-0 lg:w-[80vw] h-[80vh]">
-        <iframe
-          width="100%"
-          height="100%"
-          src="https://www.youtube.com/embed/D2UrfiW_ZW4?autoplay=1&si=-qyFRVWcBFx_AeCa"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
     <script src="./script.js"></script>
     <script src="./translate.js"></script>
-    <script src="./modal.js"></script>
+    <script src="./group.js"></script>
   </body>
 </html>

@@ -1,0 +1,59 @@
+.tungsten-thin {
+  font-family: "svn-tungsten", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.tungsten-light {
+  font-family: "svn-tungsten", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.tungsten-regular {
+  font-family: "svn-tungsten", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tungsten-bold {
+  font-family: "svn-tungsten", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tungsten-black {
+  font-family: "svn-tungsten", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.tungsten-thin-italic {
+  font-family: "svn-tungsten", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.tungsten-light-italic {
+  font-family: "svn-tungsten", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.tungsten-regular-italic {
+  font-family: "svn-tungsten", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tungsten-bold-italic {
+  font-family: "svn-tungsten", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.tungsten-black-italic {
+  font-family: "svn-tungsten", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}

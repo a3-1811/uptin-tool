@@ -1,5 +1,6 @@
 // Define a variable to store the current language
 let currentLanguage = "en";
+let dictionary = {};
 
 // Function to fetch and load translations from JSON file
 async function loadTranslations(language) {
@@ -20,20 +21,21 @@ function findAndreplace(obj = {}, parent = null) {
     if (isObject) {
       findAndreplace(obj[key], combineKey);
     }else{
-      const ele = document.getElementById(combineKey);
-      if(ele){
-        ele.innerHTML = obj[key];
+      const eles = document.querySelectorAll(`#${combineKey}`);
+      if (eles) {
+        eles.forEach(ele=>{
+          ele.innerHTML = obj[key];
+        })
       }
     }
   }
-
 }
 
 // Function to update content based on language
 async function updateContent(language) {
   // Load translations for the selected language
   const translations = await loadTranslations(language);
-
+  dictionary = translations; 
   findAndreplace(translations);
 
   // Update current language

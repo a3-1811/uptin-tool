@@ -1,36 +1,40 @@
 {
   "banner": {
-    "title": "A TOOL THAT HELP YOU MASS POST ON <span class=\"primary font-bold\">FACEBOOK GROUPS</span>",
-    "launch": "LAUNCHING IN...",
-    "days": "DAYS",
-    "hours": "HOURS",
-    "minutes": "MINUTES",
-    "seconds": "SECONDS",
-    "lifetime": "LIFE-TIME",
+    "title": "A TOOL THAT HELP YOU POST TO <span class=\"primary font-bold\">MULTIPLE FACEBOOK GROUPS</span>",
+    "launch": "LAUNCH IN...",
+    "days": "DAY",
+    "hours": "HOUR",
+    "minutes": "MINUTE",
+    "seconds": "SECOND",
+    "lifetime": "Life-time",
     "free": "FREE",
     "join": "JOIN",
-    "wishlist": "WISH-LIST & WAKE YOU UP WHEN TOOL READY",
+    "wishlist": "WISH-LIST & NOTIFY YOU WHEN TOOL IS READY",
     "btn": {
-      "access": {
-        "content": "Get Early Access 1 month <span class=\"lato-bold\">FREE</span>",
-        "sub": "Then $2.5 USD/month"
-      },
-      "lifetime": {
-        "content": "$ 25 USD",
-        "sub": "Unlimited time usage"
-      }
+      "access": { "content": "Get Early Access <br> <span class=\"lato-bold\">1 month FREE</span>", "sub": "Then $2.5 USD/month" },
+      "lifetime": { "content": "$25 USD", "sub": "Unlimited usage time " }
     }
   },
-  "feature": {
-    "feature_1": "USE AI TO HELP POSTS NOT BE MARKED AS SPAM",
-    "feature_2": "1 CLICK POST TO THOUSANDS OF GROUPS",
-    "feature_3": "GROUP GROUPS INTO FAVORITE COLLECTION FOR LATER USE",
-    "feature_4": "AUTOMATIC SUBSCRIPTION RENEWAL",
-    "feature_5": "ANY ACCOUNT CAN BE USED",
-    "feature_6": "NO CHECK POINT"
+  "demo": "Watch demo",
+  "feature1": {
+    "title": "Features",
+    "1": "AI RE-WRITE EVERY POST",
+    "2": "1-CLICK POST TO THOUSANDS OF GROUPS",
+    "3": "FAVORITE COLLECTION",
+    "4": "NO LOGIN REQUIRED",
+    "5": "ACCOUNT SYNC",
+    "6": "SMART HASHTAG"
   },
-  "team": {
-    "title": "MEET OUR TEAM"
+  "feature2": {
+    "title": "WHAT YOU GET?",
+    "1": "SAVE HOURS EVERDAY",
+    "2": "MORE REACH, MORE SALES, MORE $$$",
+    "3": "NO SPAM",
+    "4": "NO CHECKPOINT"
   },
+  "unbelievable": "Unbelievable!",
+  "deal": "LIFE-TIME DEAL",
+  "deal_value": "$25 USD",
+  "time_remain": "Time left:",
   "contact": "GET IN TOUCH"
 }

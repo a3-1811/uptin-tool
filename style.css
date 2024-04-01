@@ -1,25 +1,29 @@
 :root {
   --primary-color: #2E65B7;
   --secondary-color: #000000;
-  --warning-color: #E95734;
-
+  --warning-color: #FC2648;
 }
 
 @font-face {
   font-family: 'tungsten';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   src: url('font/tungsten.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'svn-tungsten';
+  font-style: normal;
+  font-weight: 400;
+  src: url('font/svn-tungsten.woff2') format('woff2'),
 }
 
 body {
   font-family: 'tungsten', sans-serif;
 }
 
-@media screen and (max-width: 768px) {
-  html {
-    font-size: 14px;
-  }
+html {
+  font-size: 12px;
 }
 
 /* Override Tailwind CSS primary color */
@@ -60,8 +64,9 @@ body {
 /* ////////////// */
 
 .time-item {
-  width: 120px;
+  width: 100%;
   text-align: center;
+  font-size: 2rem;
 }
 .time-number{
   max-width: 120px;
@@ -113,4 +118,41 @@ body {
   min-width: 200px;
   background: #000;
   color: #fff;
+}
+
+.shadow-main {
+  box-shadow: 10px 10px 0px 0px #222222, 5px 5px 0px 0px #f3ec17;
+}
+
+.text-shadow-white{
+  text-shadow: 10px 10px 0px #fff, -10px -10px 0px #fff, -10px 10px 0px #fff, 10px -10px 0px #fff;
+}
+
+.animate-infinite-scroll{
+  animation: infinite-scroll 25s linear infinite;
+}
+
+@keyframes infinite-scroll {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to{
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  .text-shadow-white {
+    text-shadow: 5px 5px 0px #fff, -5px -5px 0px #fff, -5px 5px 0px #fff, 5px -5px 0px #fff;
+  }
+
+  .time-number {
+    width: calc(50% - 50px);
+    max-width: 100%;
+  }
 }
